@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-28 08:25+0000\n"
+"Last-Translator: Jean-Blaise Claivaz <jean-blaise.claivaz@unige.ch>\n"
+"Language-Team: French <http://translate.pkp.sfu.ca/projects/pkp-lib/"
+"invitation/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupAssignedToUser"
+msgstr "Le groupe d'utilisateur/ices est attribué à la personne invitée"
+
+msgid "invitation.userRoleAssignment.validation.error.noUserGroupChanges"
+msgstr ""
+"L'invitation ne peut pas être envoyée car vous n'avez défini aucun "
+"changement de groupe d'utilisateur/ices"
+
+msgid "invitation.userRoleAssignment.validation.error.user.mustExist"
+msgstr ""
+"Lorsqu'une invitation comporte un identifiant utilisateur ({$userId}), l'"
+"utilisateur/ice correspondant/e doit exister."
+
+msgid "invitation.userRoleAssignment.validation.error.user.emailMustNotExist"
+msgstr ""
+"Lorsqu'une invitation est associée à une adresse courriel ({$email}), cette "
+"adresse ne doit pas être utilisée par un/e autre utilisateur/ice."
+
+msgid "invitation.userRoleAssignment.validation.error.username.alreadyExisting"
+msgstr ""
+"Il existe déjà un/e utilisateur/ice avec le nom d'utilisateur {$username}. "
+"Veuillez en essayer un autre."
+
+msgid "invitation.header"
+msgstr "Invitations en cours"
+
+msgid "invitation.tableHeader.name"
+msgstr "Nom"
+
+msgid "invitation.api.error.invitationTypeNotHasMailable"
+msgstr "Ce type d'invitation n'a pas de modèle de courriel renseigné"
+
+msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
+msgstr ""
+"L'identifiant {$reviewAssignmentId} ne correspond à aucune sollicitation "
+"d'évaluation"
+
+msgid "invitation.api.error.invitationCantBeCanceled"
+msgstr "Cette invitation ne peut être annulée"
+
+msgid "invitation.validation.error.propertyProhibited"
+msgstr "Ce champ est interdit"
+
+msgid "invitation.step"
+msgstr "ÉTAPE"
+
+msgid "invitation.inviteToRole.btn"
+msgstr "Inviter à un rôle"
+
+msgid "invitation.wizard.pageTitle"
+msgstr "Inviter une personne à accepter un rôle"
+
+msgid "userInvitation.searchUser.nextButtonLabel"
+msgstr "Chercher"
+
+msgid "userInvitation.enterDetails.stepName"
+msgstr "Renseigner les détails"
+
+msgid "userInvitation.enterDetails.stepLabel"
+msgstr "{$step} - Renseigner les détails et inviter à des rôles"
+
+msgid "userInvitation.enterDetails.nextButtonLabel"
+msgstr "Enregistrer et poursuivre"
+
+msgid "invitation.role.selectRole"
+msgstr "Sélectionner un nouveau rôle"
+
+msgid "userInvitation.roleTable.startDate"
+msgstr "Date de début"
+
+msgid "userInvitation.sendMail.nextButtonLabel"
+msgstr "Envoyer l'invitation"
+
+msgid "userInvitation.sendMail.stepLabel"
+msgstr "{$step} - Préparer le courriel d'invitation"
+
+msgid "userInvitation.modal.title"
+msgstr "Invitation envoyée"
+
+msgid "invitation.role.removeRole.button"
+msgstr "Supprimer le rôle"
+
+msgid "userInvitation.modal.button"
+msgstr "Voir l'ensemble des utilisateur/ices"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotExisting"
+msgstr "L'identifiant du groupe utilisateur/ices {$userGroupId} n'existe pas"
+
+msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
+msgstr ""
+"Vous ne pouvez pas fournir à la fois le courriel et l'identifiant "
+"utilisateur/ice."
+
+msgid "invitation.userRoleAssignment.validation.error.multilingual.primaryLocaleRequired"
+msgstr "Une valeur est requise pour '{$primaryLocale}'"
+
+msgid "userInvitation.searchUser.stepName"
+msgstr "Rechercher une personne"
+
+msgid "userInvitation.searchUser.stepLabel"
+msgstr "{$step} - Rechercher une personne"
+
+msgid "userInvitation.searchUser.stepDescription"
+msgstr ""
+"Si l'utilisateur/ice n'existe pas dans le système, vous pouvez l'inviter à "
+"accepter un rôle. Si l'utilisateur/ice existe déjà, vous pouvez consulter "
+"ses informations et l'inviter à accepter des rôles supplémentaires."
+
+msgid "userInvitation.searchField.description"
+msgstr "Exemple : aeinstein@example.com ou aeinstein ou 0000-0002-1825-0097"
+
+msgid "invitation.role.dateStart"
+msgstr "Date de début"
+
+msgid "invitation.role.addRole.button"
+msgstr "Ajouter un autre rôle"
+
+msgid "userInvitation.roleTable.role"
+msgstr "Rôle"
+
+msgid "userInvitation.roleTable.endDate"
+msgstr "Date de fin"
+
+msgid "userInvitation.sendMail.stepName"
+msgstr "Vérifier et lancer l'invitation"
+
+msgid "invitation.api.error.operationFailed"
+msgstr "Cette invitation a échoué"
+
+msgid "invitation.email.description"
+msgstr "Exemple : aeinstein@example.com"
+
+msgid "invitation.givenName.description"
+msgstr ""
+"Si vous connaissez son prénom, vous pouvez le renseigner. Cette information "
+"peut cependant être éditée par la personne elle-même."
+
+msgid "invitation.decline.confirm"
+msgstr "Confirmer le refus de l'invitation"
+
+msgid "invitation.decline.confirm.title"
+msgstr "Décliner l'invitation"
+
+msgid "acceptInvitation.verifyOrcid.stepName"
+msgstr "Veuillez vérifier votre identifiant ORCID"
+
+msgid "acceptInvitation.verifyOrcid.stepLabel"
+msgstr "{$step} - Vérifier l'identifiant ORCID"
+
+msgid "invitation.orcid.description"
+msgstr ""
+"En acceptant l'invitation, la personne pourra choisir d'être redirigée vers "
+"ORCID pour vérifier son compte."
+
+msgid "invitation.familyName.description"
+msgstr ""
+"Si vous connaissez son nom, vous pouvez le renseigner. Cette information "
+"peut cependant être éditée par la personne elle-même."
+
+msgid "invitation.decline.confirm.description"
+msgstr ""
+"Êtes-vous sûr/e de vouloir décliner cette invitation ? Merci de confirmer en "
+"cliquant sur le bouton ci-dessous."
+
+msgid "acceptInvitation.verifyOrcid.nextButtonLabel"
+msgstr "Enregistrer et poursuivre"
+
+msgid "acceptInvitation.accountDetails.nextButtonLabel"
+msgstr "Enregistrer et poursuivre"
+
+msgid "acceptInvitation.userDetails.stepName"
+msgstr "Saisir les détails"
+
+msgid "acceptInvitation.userDetails.stepLabel"
+msgstr "{$step} - Saisir les détails"
+
+msgid "acceptInvitation.userDetails.nextButtonLabel"
+msgstr "Enregistrer et poursuivre"
+
+msgid "acceptInvitation.userDetails.stepDescription"
+msgstr ""
+"Saisir vos informations personnelles comme votre courriel, votre "
+"affiliation, etc. Au regard du RGPD, ces données peuvent être modifiées "
+"uniquement par vous-même. Vous pouvez également choisir de rendre ces "
+"données visibles sur votre profil pour la rédaction."
+
+msgid "acceptInvitation.userDetails.form.name"
+msgstr "Formulaire utilisateur/ice d'acceptation d'une invitation"
+
+msgid "acceptInvitation.userDetails.form.description"
+msgstr ""
+"Merci de fournir les informations suivantes pour nous aider à gérer votre "
+"compte"
+
+msgid "acceptInvitation.detailsReview.stepName"
+msgstr "Vérifier et créer le compte"
+
+msgid "acceptInvitation.detailsReview.stepLabel"
+msgstr "{$step} - Vérifier et créer le compte"
+
+msgid "acceptInvitation.skipVerifyOrcid"
+msgstr "Passer l'étape de vérification de l'ORCID"
+
+msgid "acceptInvitation.verifyOrcid"
+msgstr "Vérifier l'identifiant ORCID"
+
+msgid "acceptInvitation.passwordField.description"
+msgstr ""
+"Le mot de passe doit être composé au minimum de 6 caractères et doit "
+"contenir des lettres majuscules, minuscules, des chiffres et des caractères "
+"spéciaux"
+
+msgid "acceptInvitation.privacyStatement.label"
+msgstr ""
+"Oui, j'accepte que mes données soient collectées et conservées selon le "
+"traitement décrit ici : {$url}"
+
+msgid "acceptInvitation.privacyStatement.btn"
+msgstr "Déclaration de confidentialité"
+
+msgid "acceptInvitation.usernameField.description"
+msgstr ""
+"Ce peut être une combinaison de lettres majuscules, minuscules ou de "
+"chiffres, sans espaces"
+
+msgid "acceptInvitation.userDetailsForm.givenName.description"
+msgstr "Prénom."
+
+msgid "acceptInvitation.userDetailsForm.familyName.description"
+msgstr "Nom de famille."
+
+msgid "acceptInvitation.userDetailsForm.affiliation.description"
+msgstr "Affiliation"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.description"
+msgstr "Il s'agit du pays dans lequel se trouve l'institution d'affiliation"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.label"
+msgstr "Pays d'affiliation"
+
+msgid "acceptInvitation.review.accountDetails"
+msgstr "Détails du compte"
+
+msgid "acceptInvitation.review.userDetails"
+msgstr "Détails de l'utilisateur/ice"
+
+msgid "acceptInvitation.modal.button"
+msgstr "Voir toutes les soumissions"
+
+msgid "invitation.searchForm.emptyError"
+msgstr "Renseigner au moins un critère de recherche."
+
+msgid "invitation.wizard.viewPageTitleDescription"
+msgstr "Vous visualisez le profil de {$name}"
+
+msgid "invitation.cancelInvite.actionName"
+msgstr "Annuler l'invitation"
+
+msgid "invitation.cancelInvite.title"
+msgstr "Annuler l'invitation"
+
+msgid "invitation.masthead.show"
+msgstr "Apparaît sur la page Responsabilités"
+
+msgid "invitation.masthead.hidden"
+msgstr "N'apparaît pas sur la page Responsabilités"
+
+msgid "invitation.management.options"
+msgstr "Options de gestion des invitations"
+
+msgid "userInvitation.cancel.message"
+msgstr "Êtes-vous sûr/e de vouloir annuler cette invitation ?"
+
+msgid "invitation.cancelInvite.message"
+msgstr ""
+"Annuler l'invitation envoyée à {$givenName} {$familyName} désactivera le "
+"lien d'acceptation dans le courriel. Voici les détails de l'invitation : "
+
+msgid "userInvitation.cancel.goBack"
+msgstr "Retour"
+
+msgid "userInvitation.status.invited"
+msgstr "Invité/e le {$date}"
+
+msgid "userInvitation.edit.title"
+msgstr "Modifier l'invitation"
+
+msgid "userInvitation.edit.message"
+msgstr ""
+"Si vous modifiez cette invitation ou ajoutez un nouveau rôle, l'invitation "
+"sera annulée et une nouvelle sera envoyée. Êtes-vous sûr/e de vouloir "
+"poursuivre ?"
+
+msgid "validation.after_or_equal"
+msgstr "La date de début doit être postérieure ou égale à la date du jour"
+
+msgid "invitation.removeRoles"
+msgstr "Rôle supprimé pour l'utilisateur/ice"
+
+msgid "acceptInvitation.privacyStatement.validation"
+msgstr ""
+"Merci de confirmer que vous avez lu et accepté la déclaration de "
+"confidentialité"
+
+msgid "acceptInvitation.cancel.message"
+msgstr ""
+"Êtes-vous sûr/e de vouloir annuler ? Si vous annulez maintenant, le "
+"processus d'acceptation du rôle sera interrompu et vous devrez accéder au "
+"courriel d'invitation pour relancer le processus. Si vous êtes déjà "
+"utilisateur/ice, vous serez redirigée vers le tableau de bord."
+
+msgid "acceptInvitation.cancelInvite.title"
+msgstr "Annuler le processus en cours d'invitation à un rôle ?"
+
+msgid "acceptInvitation.cancelInvite.button"
+msgstr "Annuler le processus d'invitation"
+
+msgid "acceptInvitation.authorization.shouldBeAnonymous"
+msgstr ""
+"L'invitation n'a pas été acceptée. Vous êtes connecté/e sous un autre compte "
+"utilisateur."
+
+msgid "acceptInvitation.authorization.message"
+msgstr ""
+"Veuillez vous déconnecter et vous reconnecter avec le bon compte pour "
+"accepter l'invitation."
+
+msgid "userInvitation.searchField"
+msgstr ""
+"Rechercher un/e utilisateur/ice soit par son courriel, son identifiant ou "
+"son ORCID."
+
+msgid "userInvitation.user.disableTitle"
+msgstr "Cet/te utilisateur/ice a été désactivée."
+
+msgid "userInvitation.user.disableMessage"
+msgstr ""
+"L'utilisateur/ice a été désactivée et vous ne pouvez pas lui attribuer un "
+"rôle. Veuillez d'abord l'activer avant de l'inviter à un rôle."
+
+msgid "acceptInvitation.privacyConsent"
+msgstr "Consentement relatif à la protection des données"
+
+msgid "invitation.userRoleAssignment.validation.error.userRoles.unexpectedProperties"
+msgstr ""
+"Des propriétés inattendues ont été détectées dans l'élément à l'index "
+"{$attribute} : {$properties}."
+
+msgid "invitation.unavailable.description"
+msgstr ""
+"Cette invitation n'est plus disponible. Elle a peut-être déjà été acceptée, "
+"refusée ou a expiré. Veuillez contacter le/la responsable de la revue pour "
+"obtenir de l'aide."
+
+msgid "invitation.unavailable.title"
+msgstr "Invitation indisponible"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotInContext"
+msgstr "Ce groupe d'utilisateur/ices ne fait pas partie de ce type d'invitation"

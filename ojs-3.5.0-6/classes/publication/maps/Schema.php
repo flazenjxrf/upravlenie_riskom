@@ -1,0 +1,61 @@
+<?php
+
+/**
+ * @file classes/publication/maps/Schema.php
+ *
+ * Copyright (c) 2014-2020 Simon Fraser University
+ * Copyright (c) 2000-2020 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @class Schema
+ *
+ * @brief Map publications to the properties defined in the publication schema
+ */
+
+namespace APP\publication\maps;
+
+use APP\facades\Repo;
+use APP\publication\Publication;
+use PKP\core\PKPApplication;
+use PKP\services\PKPSchemaService;
+
+class Schema extends \PKP\publication\maps\Schema
+{
+    /** @copydoc \PKP\publication\maps\Schema::mapByProperties() */
+    protected function mapByProperties(array $props, Publication $publication, bool $anonymizeAuthors): array
+    {
+        $output = parent::mapByProperties($props, $publication, $anonymizeAuthors);
+
+        if (in_array('galleys', $props)) {
+            if ($anonymizeAuthors) {
+                $output['galleys'] = [];
+            } else {
+                $output['galleys'] = Repo::galley()->getSchemaMap($this->submission, $publication, $this->genres)
+                    ->summarizeMany($publication->getData('galleys'));
+            }
+        }
+
+        if (in_array('urlPublished', $props)) {
+            $output['urlPublished'] = $this->request->getDispatcher()->url(
+                $this->request,
+                PKPApplication::ROUTE_PAGE,
+                $this->context->getData('urlPath'),
+                'article',
+                'view',
+                [
+                    $this->submission->getBestId(),
+                    'version',
+                    $publication->getId(),
+                ]
+            );
+        }
+
+        $locales = $this->submission->getPublicationLanguages($this->context->getSupportedSubmissionMetadataLocales());
+
+        $output = $this->schemaService->addMissingMultilingualValues(PKPSchemaService::SCHEMA_PUBLICATION, $output, $locales);
+
+        ksort($output);
+
+        return $this->withExtensions($output, $publication);
+    }
+}

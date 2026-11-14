@@ -1,0 +1,58 @@
+# Alexandra Fogtmann-Schulz <alfo@kb.dk>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-19T11:05:39+00:00\n"
+"PO-Revision-Date: 2026-10-26 17:43+0000\n"
+"Last-Translator: Alexandra Fogtmann-Schulz <alfo@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/ojs/"
+"importexport-doaj/da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.importexport.doaj.displayName"
+msgstr "DOAJ Eksport-plugin"
+
+msgid "plugins.importexport.doaj.description"
+msgstr "Eksportér artikelmetadata til Directory of Open Access Journals (DOAJ)."
+
+msgid "plugins.importexport.doaj.export.contact"
+msgstr "Kontakt DOAJ for at blive inkluderet"
+
+msgid "plugins.importexport.doaj.registrationIntro"
+msgstr ""
+"Indtast din DOAJ API-nøgle for at registrere artikler hos DOAJ direkte fra "
+"OJS. Uden en API-nøgle kan du stadig eksportere artikler til DOAJ XML-"
+"format, men du skal selv sørge for at få data registreret hos DOAJ."
+
+msgid "plugins.importexport.doaj.settings.form.apiKey"
+msgstr "DOAJ API-nøgle"
+
+msgid "plugins.importexport.doaj.settings.form.apiKey.description"
+msgstr "Du finder din API-nøgle på din DOAJ-brugerside."
+
+msgid ""
+"plugins.importexport.doaj.settings.form.automaticRegistration.description"
+msgstr ""
+"OJS vil automatisk deponere artikler hos DOAJ. Bemærk, at der, efter "
+"publicering, kan gå lidt tid inden processen er fuldført. Du kan tjekke om "
+"der skulle være artikler der er uregistrerede."
+
+msgid "plugins.importexport.doaj.senderTask.name"
+msgstr "DOAJ automatiske registreringsopgave"
+
+msgid "plugins.importexport.doaj.register.error.mdsError"
+msgstr ""
+"Deponeringen kunne ikke gennemføres! DOAJ API returnerede en fejl: "
+"'{$param}'."
+
+msgid "plugins.importexport.doaj.cliUsage"
+msgstr ""
+"Brug:\n"
+"{$scriptName} {$pluginName} export [xmlFileName] [journal_path] articles "
+"objectId1 [objectId2] ...\n"

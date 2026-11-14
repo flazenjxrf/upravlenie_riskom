@@ -1,0 +1,78 @@
+# Mahmut  VURAL <mahmut.vural@outlook.com>, 2026.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-07-12 11:38+0000\n"
+"Last-Translator: Mahmut  VURAL <mahmut.vural@outlook.com>\n"
+"Language-Team: Kyrgyz <http://translate.pkp.sfu.ca/projects/plugins/"
+"review-report-plugin/ky/>\n"
+"Language: ky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
+
+msgid "plugins.reports.reviews.round"
+msgstr "Тур"
+
+msgid "plugins.reports.reviews.submissionTitle"
+msgstr "Материалдын аталышы"
+
+msgid "plugins.reports.reviews.submissionId"
+msgstr "Материалдын ID'си"
+
+msgid "plugins.reports.reviews.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.reports.reviews.dateAssigned"
+msgstr "Дайындалган күнү"
+
+msgid "plugins.reports.reviews.dateNotified"
+msgstr "Кабарланган күнү"
+
+msgid "plugins.reports.reviews.dateConfirmed"
+msgstr "Ырасталган күнү"
+
+msgid "plugins.reports.reviews.dateAcknowledged"
+msgstr "Тастыкталган күнү"
+
+msgid "plugins.reports.reviews.dateCompleted"
+msgstr "Аякталган күнү"
+
+msgid "plugins.reports.reviews.dateReminded"
+msgstr "Эскертилген күнү"
+
+msgid "plugins.reports.reviews.reviewOverdue"
+msgstr "Рецензиянын кечиккен күндөрү"
+
+msgid "plugins.reports.reviews.responseOverdue"
+msgstr "Жооптун кечиккен күндөрү"
+
+msgid "plugins.reports.reviews.recommendation"
+msgstr "Сунуш"
+
+msgid "plugins.reports.reviews.comments"
+msgstr "Материал боюнча комментарийлер"
+
+msgid "plugins.reports.reviews.considered"
+msgstr "Эске алуу"
+
+msgid "plugins.reports.reviews.considered.new"
+msgstr "Эч качан"
+
+msgid "plugins.reports.reviews.considered.considered"
+msgstr "Эске алынган"
+
+msgid "plugins.reports.reviews.considered.unconsidered"
+msgstr "Эске алынбаган"
+
+msgid "plugins.reports.reviews.considered.reconsidered"
+msgstr "Кайра каралган"
+
+msgid "plugins.reports.reviews.displayName"
+msgstr "Рецензия отчёту"
+
+msgid "plugins.reports.reviews.description"
+msgstr ""
+"Бул плагин журнал үчүн рецензия тапшырмаларынын тизмесин камтыган CSV "
+"отчётун ишке ашырат."
